@@ -8,7 +8,7 @@ namespace ArrayListDemo
         static void Main(string[] args)
         {
             //Array
-           Array b=new int[6] {2,3,12,33,45,56,};
+           int [] b=new int[6] {2,3,12,33,45,56,};
             foreach(int i in b)
                 Console.Write(i);
             Array m = new string[4] { "asd", "asre", "vcxz", "gklm" };
